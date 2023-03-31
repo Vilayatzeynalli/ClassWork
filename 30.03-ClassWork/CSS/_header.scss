@@ -1,0 +1,87 @@
+header{
+    background-image: url(./images/yemek.png);
+    height: 100vh;
+  .container{
+    .text1{
+        nav{
+            .text2{
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                li{
+                    font-size: 20px;
+                    &:hover::after{
+                        content: "";
+                        display: block;
+                        border: 1px solid red;
+                        width: 30px;
+                    }
+                    a{
+                        color: white;
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+  }
+  .text3{
+    .text4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 400px;
+       
+        .text5{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            
+            
+            span{
+                text-decoration: line-through;
+                font-size: 30px;
+                color: rgb(172, 62, 62);
+                margin: 20px;
+                font-family: 'Changa One', cursive;
+            }
+            h1{  font-size: 40px;
+                width: 400px;
+                color: white;
+                margin: 20px;
+                font-family: 'Grand Hotel', cursive;
+                
+
+                
+            }
+            a{
+                border: 1px solid brown;
+                padding: 10px;
+                background-color: brown;
+                color: white;
+                padding: 10px 30px;
+                margin: 20px;
+                font-family: 'Chakra Petch', sans-serif;
+
+            }
+        }
+    }
+    .images{
+
+        img{
+            width: 450px;
+            margin-right: 30px;
+            padding-top: 165px;
+            transition: 1s;
+            &:hover{
+                transform: translateY(200px);
+            }
+           
+        }
+    }
+  }
+}
