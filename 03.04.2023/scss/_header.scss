@@ -1,0 +1,31 @@
+#header{
+    width: 100%;
+    background-color: #e7e3e3;
+    padding: 10px 0;
+    position: fixed;
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .imgg{
+                img{
+                    width: 150px;
+                }
+            }
+            li{
+                a{
+                    position: absolute;
+                    color: #000;
+                    font-size: 14px;
+                    &:hover::after{
+                        position: relative;
+                        display: block;
+                        content: "";
+                        border: 1px solid red;
+                    }
+                }
+            }
+        }
+    }
+}
