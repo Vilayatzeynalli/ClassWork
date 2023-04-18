@@ -1,0 +1,37 @@
+.minions {
+  .minion {
+    .box:nth-child(odd) {
+      background-color: rgb(163, 81, 240);
+    }
+    .box:nth-child(even) {
+      background-color: rgb(42, 100, 28);
+    }
+    .box:hover {
+      background-image: url(../img/WhatsApp\ Image\ 2023-04-03\ at\ 01.37.13.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation-name: rotate;
+      animation-duration: 1s;
+    }
+    .box:hover p {
+         display: none;
+    }
+    .box {
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}

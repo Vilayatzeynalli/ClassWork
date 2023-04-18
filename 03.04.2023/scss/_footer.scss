@@ -1,0 +1,28 @@
+.footer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .rows-1{
+        input{
+            margin-bottom: 10px;
+            margin-right: 5px;
+        }
+    }
+    .rows-2{
+        margin-bottom: 10px;
+    }
+    .rows-last{
+        background-color: rgba(255, 145, 0, 0.781);
+        width: 65%;
+        padding: 10px 0;
+        margin-left: 0px;
+        padding-top: 10px;
+
+    }
+    .rows-4{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
