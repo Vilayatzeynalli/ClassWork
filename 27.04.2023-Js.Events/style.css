@@ -1,0 +1,9 @@
+form {
+  height: 90vh;
+  border: 2px dashed #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
