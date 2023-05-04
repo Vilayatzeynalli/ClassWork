@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+      .contain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+      }
+      .inputUsername{
+        width: 400px;
+        height: 30px;
+        font-size: 20px;
+      }
+      .inputEmail{
+        width: 400px;
+        height: 30px;
+        font-size: 20px;
+      }
+      .inputPassword{
+        width: 400px;
+        height: 30px;
+        font-size: 20px;
+      }
+      .submit{
+        width: 100px;
+        height: 40px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        /* background-color: blue; */
+        /* color: white; */
+      }
+    </style>
+</head>
+<body>
+    <form class="form" action="">
+        <div class="container">
+            <div class="contain">
+                <h1>Sign Up</h1>
+                <label for="">Username</label>
+                <input class="inputUsername" type="text">
+                <label for="">Email Adress</label>
+                <input class="inputEmail" type="email">
+                <label for="">Password</label>
+                <input class="inputPassword" type="password">
+                <input class="checkbox" type="checkbox">Check me out
+                 <button disabled class="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
