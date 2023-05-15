@@ -1,0 +1,13 @@
+.section1{
+    height: 100vh;
+  background-image: url(../Images/bg2.jpg);
+  background-repeat: no-repeat;  
+  background-size: cover; 
+}
+@media only screen and (max-width: 576px) {
+   .section1{
+    background-image: url(../Images/bg3\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+}

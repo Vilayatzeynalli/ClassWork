@@ -1,0 +1,94 @@
+section{
+   .container{
+    h1{
+        margin-left: 500px;
+    }
+    hr{
+        width: 180px;
+        color: red;
+        height: 7px;
+        margin-left: 500px;
+    }
+    .table-mobile{
+       .cards{
+        display: none;
+       }
+    }
+    .table{
+        tbody{
+            tr{
+                td{
+                    img{
+                        border: 1px solid black;
+                        border-radius: 50%;
+                        width: 40px;
+                    }
+                    .button{
+                        .btn1{
+                        border: 1px solid green;
+                        background-color: green;
+                        width: 50px;
+                        height: 30px;
+                        border-radius: 7px;
+                        color: white;
+                        }
+                        .btn2{
+                        border: 1px solid red;
+                        background-color: red;
+                        width: 50px;
+                        height: 30px;
+                        border-radius: 7px;
+                        color: white;
+                        }
+                        .btn3{
+                        border: 1px solid blue;
+                        background-color: blue;
+                        width: 100px;
+                        height: 30px;
+                        border-radius: 7px;
+                        color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+}
+@media only screen and (max-width:767px){
+    section{
+        .container2{
+            .table{
+                display: none;
+            }
+            .table-mobile{
+               display: block;
+               .cards{
+                .edit{
+                    border: 1px solid green;
+                    background-color: green;
+                    width: 50px;
+                    height: 30px;
+                    border-radius: 7px;
+                    color: white;
+                    }
+                    .delete{
+                    border: 1px solid red;
+                    background-color: red;
+                    width: 50px;
+                    height: 30px;
+                    border-radius: 7px;
+                    color: white;
+                    }
+                .img{
+                    img{
+                        border: 1px solid black;
+                        border-radius: 50%;
+                        width: 40px;
+                    }
+                }
+               }
+            }
+        }
+    }
+}
