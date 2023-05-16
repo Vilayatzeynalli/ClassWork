@@ -1,0 +1,32 @@
+#header{
+    background-color: rgb(6, 156, 156);
+    .container{
+        .text1{
+            padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .text2{
+            display: flex;
+            i{
+                padding: 8px;
+            }
+          }
+        }
+    }
+}
+
+.input{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .search{
+        width: 400px;
+        height: 35px;
+    }
+    select{
+        width: 100px;
+        height: 35px;
+    }
+}

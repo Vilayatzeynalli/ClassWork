@@ -1,0 +1,43 @@
+#header {
+  background-color: rgb(6, 156, 156);
+}
+#header .container .text1 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .container .text1 .text2 {
+  display: flex;
+}
+#header .container .text1 .text2 i {
+  padding: 8px;
+}
+
+.input {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input .search {
+  width: 400px;
+  height: 35px;
+}
+.input select {
+  width: 100px;
+  height: 35px;
+}
+
+section .row .col a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
